@@ -1,0 +1,192 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body and header */
+body {
+    font-family: Georgia, Serif;
+    line-height: 1.6;
+    /* Add the background image here */
+    background-image: url('clouds3.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Add flexbox display */
+    flex-direction: column; /* Stack child elements vertically */
+    min-height: 100vh; /* Set a minimum height to the body to fill the viewport */
+text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #89b5e5, #c97ba3);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Style the main section */
+main {
+    flex: 1; /* Allow the main section to grow and fill the available space */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+text-align: center;
+}
+
+div {
+    margin-top: 1rem;
+}
+
+/* Style the emotion buttons */
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background: linear-gradient(to right, #b3d9ff, #f2a6cc);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(to right, #80bfff, #e680ad);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #89b5e5, #c97ba3);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3399CC;
+    border-collapse: collapse;
+}
+
+nav {
+    font-size: 1.2em;
+    text-align: center;
+
+    display: flex; /* Change to flex for horizontal alignment */
+    justify-content: center; /* Align navigation items to the center horizontally */
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove flex-direction for the nested ul to keep them stacked vertically */
+    margin: 0;
+    padding-left: 0;
+    display: flex; /* Add flex to make the list items horizontal */
+}
+
+nav li {
+    /* Add some spacing between navigation items */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Style the links as buttons */
+nav li a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(to right, #b3d9ff, #f2a6cc);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav li a:hover {
+    background: linear-gradient(to right, #80bfff, #e680ad);
+}
+
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #DFEDF8;
+}
+
+/* Multi-column layout styles */
+.content-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1 1 30%;
+    margin: 10px;
+text-align: center;
+}
+
+/* Responsive styles: Adjust column layout on smaller screens */
+@media screen and (max-width: 768px) {
+    .column {
+        flex-basis: 45%;
+    }
+}
+
+/* Style for the video iframe */
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+width: 60%;
+display: grid;
+grid-gap: 1em;
+grid-template-columns: 10em 1fr;
+}
+
+input[type="submit"] {
+grid-column: 2;
+width: 9em;
+}
