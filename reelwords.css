@@ -214,8 +214,8 @@ nav ul {
 
 nav li {
     /* Add some spacing between navigation items */
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* Style the links as buttons */
