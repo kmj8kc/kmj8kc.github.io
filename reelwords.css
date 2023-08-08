@@ -189,6 +189,14 @@ background-repeat: repeat;
 background-position: center;
 }
 
+#joinushero {
+height: 350px;
+background-image: url(joinus.jpeg);
+background-size: 50% 100%;
+background-repeat: repeat;
+background-position: center;
+}
+
 nav {
 font-weight: bold;
 padding: 0;
