@@ -110,10 +110,10 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #homehero {
-height: 300px;
+height: 400px;
 background-image: url(home_image2.jpeg);
-background-size: 100% 100%;
-background-repeat: no-repeat;
+background-size: 80% 100%;
+background-repeat: repeat;
 }
 
 #happyhero {
