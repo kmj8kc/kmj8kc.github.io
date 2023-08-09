@@ -32,8 +32,9 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 h1 {
 font-size: 1.5rem;
-color: white;
-text-shadow: 0 0 10px rgba(30, 144, 255, 0.8), 0 0 20px rgba(30, 144, 255, 0.8), 0 0 30px rgba(30, 144, 255, 0.8);
+font-style: italic;
+color: #5072A7;
+text-shadow: 0 0 10px rgba(80, 114, 167, 0.5), 0 0 20px rgba(80, 114, 167, 0.5), 0 0 30px rgba(80, 114, 167, 0.5);
 }
 
 main {
