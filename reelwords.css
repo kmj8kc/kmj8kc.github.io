@@ -24,15 +24,16 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+font-size: 3rem;
 font-style: italic;
+color: black;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-font-size: 2rem;
-font-style: bold;
-text-shadow: 0 0 10px rgba(255, 105, 180, 0.8), 0 0 20px rgba(255, 105, 180, 0.8), 0 0 30px rgba(255, 105, 180, 0.8);
+font-size: 1.5rem;
+color: white;
+text-shadow: 0 0 10px rgba(30, 144, 255, 0.8), 0 0 20px rgba(30, 144, 255, 0.8), 0 0 30px rgba(30, 144, 255, 0.8);
 }
 
 main {
